@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(226, 160, 113);
+    color: #fff;
+}
+#game {
+    background-color:rgb(154, 150, 207);
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    padding: 18px;
+    margin-top: 300px;
+    margin: auto;
+  
+}
+h1 {
+    margin-top: 0;
+    font-weight: 400;
+    border: 1px solid white;
+}
+#answer {
+    width: 100px;
+    background :rgb(230, 230, 77);
+    transition: width 2s linear 1s;
+    
+}
+#answer:hover {
+    background-color: green;
+    color: #fff;
+   
+
+}
+#result {
+    width: 120px;
+}
+#puanlama {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+   
+}
+#True {
+    padding: 10px;
+    background-color: green;
+}
+#False {
+    padding: 10px;
+    background-color: red;
+}
+span {
+    font-size: 20px;
+}
+h2 {
+    position: relative;
+    margin-top: 420px;
+    color:black
+}
+
